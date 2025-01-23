@@ -3,47 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student API Home</title>
+    <title>Welcome to IITM</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
+            background-color: #f5f5f5;
         }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background: white;
+        header {
+            background-color: #004080;
+            color: white;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
-        h1 {
-            color: #333;
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0066cc;
+            padding: 10px;
         }
-        p {
-            color: #666;
-        }
-        a {
-            color: #007BFF;
+        nav a {
+            color: white;
+            margin: 0 15px;
             text-decoration: none;
         }
-        a:hover {
-            text-decoration: underline;
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to the Student API</h1>
-        <p>This is a simple API server to manage student data.</p>
-        <p>Use the following endpoint to retrieve student data:</p>
-        <ul>
-            <li><a href="/api" target="_blank">/api</a> - Get all students data</li>
-            <li><a href="/api?class=1A" target="_blank">/api?class=1A</a> - Get students in class 1A</li>
-        </ul>
-    </div>
-<!--email_off-->23f2005141@ds.study.iitm.ac.in<!--/email_off-->
+
+<header>
+    <h1>Welcome to Indian Institute of Technology Madras</h1>
+</header>
+
+<nav>
+    <a href="#about">About IITM</a>
+    <a href="#departments">Departments</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About IITM</h2>
+    <p>Indian Institute of Technology Madras (IITM) is one of the premier engineering institutions in India. Established in 1959, IITM offers world-class education and research facilities in various fields of engineering, science, and technology.</p>
+</section>
+
+<section id="departments">
+    <h2>Departments</h2>
+    <ul>
+        <li>Department of Aerospace Engineering</li>
+        <li>Department of Applied Mechanics</li>
+        <li>Department of Biotechnology</li>
+        <li>Department of Chemical Engineering</li>
+        <li>Department of Civil Engineering</li>
+        <li>Department of Computer Science and Engineering</li>
+        <li>Department of Electrical Engineering</li>
+        <li>Department of Mechanical Engineering</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>If you have any questions or need more information, feel free to reach out to us at:</p>
+    <p>Email: info@iitm.ac.in</p>
+    <p>Phone: +91-44-2257-8101</p>
+</section>
+
+<footer>
+    <!--email_off-->23f2005141@ds.study.iitm.ac.in<!--/email_off-->
+
+    <p>&copy; 2025 Indian Institute of Technology Madras</p>
+</footer>
+
 </body>
 </html>
